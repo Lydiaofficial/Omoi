@@ -1,6 +1,6 @@
-/* *, *::before, *::after {
+*, *::before, *::after {
     box-sizing: border-box;  
-} */
+} 
 
 @font-face {
     font-family: 'font name';
@@ -160,6 +160,7 @@ footer,
     background-color: #0C0C0C;
     border-radius: 2.25em;
     overflow: hidden;
+    max-width: 1000%
 }
 
 
@@ -233,7 +234,7 @@ footer,
     border-radius: 1em;
     background-color: #0C0C0C;
     flex-grow: 1;
-    max-width: 100%;
+    width: 100%;
 }
 
 .events-label {
